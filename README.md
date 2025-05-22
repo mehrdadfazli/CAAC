@@ -9,8 +9,8 @@ Our implementation leverages the Hugging Face versions of LLaVA-1.5 and Instruct
 ## Dataset Requirements
 To run the experiments, you need to download the following datasets:
 
-- **AMBER Dataset**: Please download the AMBER dataset from its original repository [INSERT LINK HERE]. Ensure it is extracted and accessible on your system.
-- **MS COCO 2014 Validation Set**: Required for the POPE and CHAIR benchmarks. Download the validation set from the official MS COCO website and prepare it for use in the experiments.
+- **AMBER Dataset**: Please download the AMBER dataset from its original repository [AMBER](https://github.com/junyangwang0410/AMBER). Ensure it is extracted and accessible on your system.
+- **MS COCO 2014 Validation Set**: Required for the POPE and CHAIR benchmarks. Download the validation set from the official [MS COCO](https://cocodataset.org/#home) website and prepare it for use in the experiments.
 
 ## Environment Setup
 To set up the required environment, follow these steps:
