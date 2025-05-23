@@ -60,10 +60,10 @@ To execute the experiments, use the provided shell scripts with the configured `
 Make sure the `config.json` file is properly set up before running these commands. The scripts will process the respective benchmarks and save the results to the directory specified in `log_dir`.
 
 ## Logs Directory
-The `logs` directory contains experimental results for the AMBER, CHAIR, and POPE benchmarks, copied from the CAAC framework. These logs provide detailed insights into the model's performance across each benchmark. Each log file corresponds to a specific experiment and includes metrics such as hallucination rates, accuracy, and other relevant scores.
+The `logs` directory contains experimental results for the CAAC framework's AMBER, CHAIR, and POPE benchmarks. You can use the log files along with the evaluation scripts (`./evals`) to reproduce our CAAC results on the benchmarks.
 
 ## Evals Directory
-The `evals` directory contains scripts used to evaluate model outputs on the AMBER, CHAIR, and POPE benchmarks. Below are the details and usage instructions for each script:
+The `evals` directory contains scripts to evaluate model outputs on the AMBER, CHAIR, and POPE benchmarks. Below are the details and usage instructions for each script:
 
 ### 1. `pope.py`
 This script evaluates the model's outputs on the POPE benchmark.
