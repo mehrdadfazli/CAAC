@@ -4,7 +4,7 @@ The baselines directory contains benchmark evaluation for baseline methods for c
 **Note**: Refer to the original repositories for setup and dependency details and then use the scripts in this directory to run them on AMBER and CHAIR benchmarks.
 
 ## AvisC Subdirectory
-Contains scripts for contrastive decoding methods (VCD, M3ID, AvisC) on the AMBER and CHAIR benchmarks. See the [AvisC](https://github.com/sangminwoo/AvisC) repository for more information.
+Contains scripts for contrastive decoding methods (VCD, M3ID, AvisC) on the AMBER and CHAIR benchmarks. See the [AvisC](https://github.com/sangminwoo/AvisC) repository for more information. Copy the Python codes for running AMBER and CHAIR, into the "eval_bench" directory of AvisC.
 
 ## OPERA Subdirectory
 Contains the script for the OPERA method on the AMBER benchmark. See the [OPERA](https://github.com/shikiw/OPERA/tree/main) repository for more information.
