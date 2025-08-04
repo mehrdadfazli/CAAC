@@ -3,6 +3,9 @@
 ## Project Description
 This repository contains the implementation of Confidence-Aware Attention Calibration (CAA) a training-free hallucination mitigation method for large vision-language models (LVLM). It provides a robust framework for researchers and developers to conduct experiments and analyze results in a structured and reproducible manner.
 
+## CAAC Framework
+<img src="https://github.com/mehrdadfazli/CAAC/blob/015c8e0be764e4551e53d3e5a4769c834bddf08c/figs/CAAC_framework_schematic.png" width=1000>
+
 ## Implementation Details
 Our implementation leverages the Hugging Face versions of LLaVA-1.5 and InstructBLIP, built on Transformer version 4.47.
 
