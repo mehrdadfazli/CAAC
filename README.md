@@ -1,7 +1,9 @@
 # README
 
 ## Project Description
-This repository contains the implementation of Confidence-Aware Attention Calibration (CAA) a training-free hallucination mitigation method for large vision-language models (LVLM). It provides a robust framework for researchers and developers to conduct experiments and analyze results in a structured and reproducible manner.
+This repository contains the implementation of Confidence-Aware Attention Calibration (CAAC) a training-free hallucination mitigation method for large vision-language models (LVLM). It provides a robust framework for researchers and developers to conduct experiments and analyze results in a structured and reproducible manner.
+
+Confidence-Aware Attention Calibration (CAAC) framework addresses hallucination challenge by targeting two key biases: *spatial perception bias*, which distributes attention disproportionately across image tokens, and *modality bias*, which shifts focus from visual to textual inputs over time. CAAC employs a two-step approach: **Visual-Token Calibration (VTC)** to balance attention across visual tokens, and **Adaptive Attention Re-Scaling (AAR)** to reinforce visual grounding guided by the model's confidence. This confidence-driven adjustment ensures consistent visual alignment during generation.
 
 ## CAAC Framework
 <img src="https://github.com/mehrdadfazli/CAAC/blob/015c8e0be764e4551e53d3e5a4769c834bddf08c/figs/CAAC_framework_schematic.png" width=1000>
