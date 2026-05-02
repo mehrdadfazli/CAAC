@@ -1,4 +1,4 @@
-[Our paper](https://arxiv.org/abs/2505.21472) is accepted to **the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026.**
+# [WACV 2026] [CAAC: Confidence-Aware Attention Calibration to Reduce Hallucinations in Large Vision-Language Models](https://openaccess.thecvf.com/content/WACV2026/html/Fazli_CAAC_Confidence-Aware_Attention_Calibration_to_Reduce_Hallucinations_in_Large_Vision-Language_WACV_2026_paper.html)
 
 ## Project Description
 This repository contains the implementation of Confidence-Aware Attention Calibration (CAAC) a training-free hallucination mitigation method for large vision-language models (LVLM). It provides a robust framework for researchers and developers to conduct experiments and analyze results in a structured and reproducible manner.
